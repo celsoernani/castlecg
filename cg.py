@@ -216,7 +216,7 @@ def Circle(x,y,side,radius):
     radius = radius   
     glBegin(GL_POLYGON)    
     for i in range(100):    
-        zcosine= radius * cos(i*2*pi/sides) + posx    
+        cosine= radius * cos(i*2*pi/sides) + posx    
         sine  = radius * sin(i*2*pi/sides) + posy    
         glVertex2f(cosine,sine)
     glEnd()
